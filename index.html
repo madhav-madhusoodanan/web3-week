@@ -1,26 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth bg-black">
     <head>
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Vite App</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+        </style>
     </head>
-    <body class="w-[99.3vw]">
-        <div class="h-screen w-full mx-auto bg-red-100 flex align-bottom">
+    <body class="w-full">
+        <script
+            type="module"
+            src="./src/components/three/bundle.9bde5503d58100401274.js"
+        ></script>
+        <script type="module" src="/src/main.jsx"></script>
+        <div class="h-screen mx-auto bg-red-100 flex align-bottom w-full">
             <a
                 href="#root"
                 class="z-10 mx-auto my-auto px-6 py-2 rounded bg-neutral-100 text-lg font-semibold w-min h-min mb-20"
             >
                 Scroll
             </a>
-            <canvas class="absolute webgl h-full w-full top-0 right-0"> </canvas>
+            <canvas class="absolute webgl h-full w-full top-0 right-0">
+            </canvas>
         </div>
-        <div id="root"></div>
-        <script
-            type="module"
-            src="./src/components/three/bundle.9bde5503d58100401274.js"
-        ></script>
-        <script type="module" src="/src/main.jsx"></script>
+        <div id="root" class="flex flex-col"></div>
     </body>
 </html>

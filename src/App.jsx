@@ -1,48 +1,101 @@
 import { useState } from "react"
 import logo from "./logo.svg"
-
-function App() {
-    const [count, setCount] = useState(0)
+import "./index.css"
+import { TimelineLeft } from "./components/timeline/left"
+import { TimelineRight } from "./components/timeline/right"
+import { TimelineMobile } from "./components/timeline/timeline"
+TimelineMobile
+const App = () => {
+    // const [count, setCount] = useState(0)
 
     return (
-        <a name="#root">
-            <div className="w-full h-screen">
-                <header className="App-header">
-                    {/* <img src={logo} className="App-logo" alt="logo" /> */}
-                    <p>Hello Vite + React!</p>
-                    <p>
-                        <button
-                            type="button"
-                            onClick={() => setCount((count) => count + 1)}
-                        >
-                            count is: {count}
-                        </button>
-                    </p>
-                    <p>
-                        Edit <code>App.jsx</code> and save to test HMR updates.
-                    </p>
-                    <p>
-                        <a
-                            className="App-link"
-                            href="https://reactjs.org"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Learn React
-                        </a>
-                        {" | "}
-                        <a
-                            className="App-link"
-                            href="https://vitejs.dev/guide/features.html"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            Vite Docs
-                        </a>
-                    </p>
-                </header>
+        <div className="w-full  bg-black">
+            <a name="#root">
+                <div id="Teams" className="grid place-items-center w-full">
+                    <div className="w-5/6 mx-auto">
+                        <div className="group w-min">
+                            <h1 className="my-4 text-4xl text-white font-grotesk font-black">
+                                Speakers
+                            </h1>
+                            <div className="w-5/6 h-0 mb-24 transition-all duration-100 ease-in-out border-2 border-blue group-hover:w-full"></div>
+                        </div>
+                        <div className="flex flex-row flex-wrap justify-between  mx-auto overflow-hidden ">
+                            <div className="overflow-hidden transition-all duration-200 bg-center bg-no-repeat bg-cover rounded-md bg-sci">
+                                <div className="h-full transition-all duration-200 bg-white bg-opacity-0 rounded-md hover:bg-opacity-75 group w-60">
+                                    <div className="px-2 flex flex-col justify-between transition-all duration-200 group-hover:h-full h-96 translate-y-72 group-hover:translate-y-0 hover:translate-y-72  w-60">
+                                        <h2 className="mx-auto my-8 text-2xl font-bold text-white transition-all duration-200 group-hover:text-black w-min justify-self-end p-2">
+                                            SCIENCE
+                                        </h2>
+                                        <p className="hidden w-full text-base text-center text-black transition-all duration-200 group-hover:block">
+                                            Responsible for developing chassis,
+                                            suspension, manipulators, wheels and
+                                        </p>
+                                        <p className="hidden w-full py-8 text-center text-black transition-all duration-200 group-hover:block">
+                                            Know More
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="overflow-hidden transition-all duration-200 bg-center bg-no-repeat bg-cover rounded-md bg-sci">
+                                <div className="h-full transition-all duration-200 bg-white bg-opacity-0 rounded-md hover:bg-opacity-75 group w-60">
+                                    <div className="px-2 flex flex-col justify-between transition-all duration-200 group-hover:h-full h-96 translate-y-72 group-hover:translate-y-0 hover:translate-y-72  w-60">
+                                        <h2 className="mx-auto my-8 text-2xl font-bold text-white transition-all duration-200 group-hover:text-black w-min justify-self-end  p-2">
+                                            SCIENCE
+                                        </h2>
+                                        <p className="hidden w-full text-base text-center text-black transition-all duration-200 group-hover:block">
+                                            Responsible for developing chassis,
+                                            suspension, manipulators, wheels and
+                                        </p>
+                                        <p className="hidden w-full py-8 text-center text-black transition-all duration-200 group-hover:block">
+                                            Know More
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="overflow-hidden transition-all duration-200 bg-center bg-no-repeat bg-cover rounded-md bg-elec">
+                                <div className="h-full transition-all duration-200 bg-white bg-opacity-0 rounded-md hover:bg-opacity-75 group w-60">
+                                    <div className="px-2 flex flex-col justify-between transition-all duration-200 group-hover:h-full h-96 translate-y-72 group-hover:translate-y-0 hover:translate-y-72  w-60">
+                                        <h2 className="mx-auto my-8 text-2xl font-bold text-white transition-all duration-200 group-hover:text-black w-min justify-self-end  p-2">
+                                            ELECTRICAL
+                                        </h2>
+                                        <p className="hidden w-full text-base text-center text-black transition-all duration-200 group-hover:block">
+                                            Responsible for developing chassis,
+                                            suspension, manipulators, wheels and
+                                            modules
+                                        </p>
+                                        <p className="hidden w-full py-8 text-center text-black transition-all duration-200 group-hover:block">
+                                            Know More
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="overflow-hidden transition-all duration-200 bg-center bg-no-repeat bg-cover rounded-md bg-elec">
+                                <div className="h-full transition-all duration-200 bg-white bg-opacity-0 rounded-md hover:bg-opacity-75 group w-60">
+                                    <div className="px-2 flex flex-col justify-between transition-all duration-200 group-hover:h-full h-96 translate-y-72 group-hover:translate-y-0 hover:translate-y-72  w-60">
+                                        <h2 className="mx-auto my-8 text-2xl font-bold text-white transition-all duration-200 group-hover:text-black w-min justify-self-end  p-2">
+                                            ELECTRICAL
+                                        </h2>
+                                        <p className="hidden w-full text-base text-center text-black transition-all duration-200 group-hover:block">
+                                            Responsible for developing chassis,
+                                            suspension, manipulators, wheels and
+                                            modules
+                                        </p>
+                                        <p className="hidden w-full py-8 text-center text-black transition-all duration-200 group-hover:block">
+                                            Know More
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div className="w-full bg-black flex flex-row justify-center gap-4">
+                <TimelineLeft />
+                <TimelineMobile />
+                <TimelineRight />
             </div>
-        </a>
+        </div>
     )
 }
 
