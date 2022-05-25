@@ -4,20 +4,19 @@ export const TimelineLeft = () => (
         <div className="outer-left">
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left">Title 1</h3>
-                    <p className="text-red">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                        asdasdasdasdasdasdasdasdasdasdasdasdasd
+                    <h3 className="title-left text-2xl">June 4th</h3>
+                    <p className="text-xl font-semibold">
+                        Introduction to web3 tech stack
+                    </p>
+                    <p className="text-red my-4">
+                        An interactive workshop by Learnweb3DAO. NFT
+                        certificates for participants.
                     </p>
                 </div>
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left">Title 2</h3>
+                    <h3 className="title-left text-2xl">Title 2</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -29,7 +28,16 @@ export const TimelineLeft = () => (
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left">Title 3</h3>
+                    <h3 className="title-left text-2xl">June 7th</h3>
+                    <p className="text-xl font-semibold">
+                        AMA with XYZ
+                    </p>
+                    <p className="my-4">An AMA session with some of India's top minds in web3</p>
+                </div>
+            </div>
+            <div className="card-left">
+                <div className="info-left">
+                    <h3 className="title-left text-2xl">Title 4</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
@@ -41,25 +49,30 @@ export const TimelineLeft = () => (
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left">Title 4</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.{" "}
+                    <h3 className="title-left text-2xl">June 12th</h3>
+                    <p className="text-xl font-semibold">
+                        Future of Web3
+                    </p>
+                    <p className="my-4">
+                        A panel about the future of Web3, involving big minds
+                        such as Pareen Lathia, Mayur, Harsh and XYZ.
                     </p>
                 </div>
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left">Title 5</h3>
+                    <h3 className="title-left text-2xl">June 12th</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.{" "}
+                        A panel about the future of Web3, involving big minds
+                        such as Pareen Lathia, Mayur, Harsh and XYZ.
+                    </p>
+                </div>
+            </div>
+            <div className="card-left">
+                <div className="info-left">
+                    <h3 className="title-left text-2xl">June 14th</h3>
+                    <p className="text-xl font-semibold">
+                        Pitch event - Demo day
                     </p>
                 </div>
             </div>

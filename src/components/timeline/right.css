@@ -16,7 +16,7 @@
 .card-right {
     position: relative;
     max-width: 400px;
-    height: 248px;
+    height: 200px;
 }
 
 /* setting padding based on even or odd */
@@ -82,10 +82,9 @@
 .card-right:nth-child(even) > .info-right {
     display: flex;
     flex-direction: column;
-    background: #333;
     /* color: gray; */
     border-radius: 10px;
-    padding: 10px;
+    padding: 0 10px 10px;
 }
 
 /* Title of the card-right */
@@ -100,7 +99,7 @@
 
 /* text right if the card-right is even  */
 .card-right:nth-child(even) > .info-right > .title-right {
-    text-align: right;
+    text-align: left;
 }
 
 /* setting dot to the left if the card-right is odd */
@@ -111,4 +110,12 @@
 /* setting dot to the right if the card-right is odd */
 .card-right:nth-child(even) > .info-right > .title-right::before {
     right: -45px;
+}
+
+.card-right:nth-child(even) > .info-right > p {
+    color: white
+}
+.card-right:nth-child(even) > .info-right > h3 {
+    color: white;
+    font-weight: 700;
 }

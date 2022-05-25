@@ -15,8 +15,8 @@
 /* Card container */
 .card {
     position: relative;
-    max-width: 400px;
-    height: 248px;
+    max-width: 100px;
+    height: 200px;
 }
 
 /* setting padding based on even or odd */
@@ -31,7 +31,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #eee;
+    border: solid #ff00ff;
 }
 
 .timeline:nth-child(odd) > .card::before {
@@ -106,10 +106,12 @@
 
 /* setting dot to the left if the card is odd */
 .card:nth-child(odd) > .info > .title::before {
-    left: -36px;
+    left: -38px;
+    top: 6px;
 }
 
 /* setting dot to the right if the card is odd */
 .card:nth-child(even) > .info > .title::before {
-    right: -36px;
+    right: -38px;
+    top: 6px;
 }

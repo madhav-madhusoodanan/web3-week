@@ -9,20 +9,52 @@
             @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
         </style>
     </head>
-    <body class="w-full">
+    <body class="w-full relative">
         <script
             type="module"
             src="./src/components/three/bundle.9bde5503d58100401274.js"
         ></script>
         <script type="module" src="/src/main.jsx"></script>
+        <div
+            class="h-min w-full fixed top-0 bg-black z-20 flex flex-row justify-between"
+        >
+            <div class="w-5/6 mx-auto flex flex-row align-middle">
+                <a href="#main">
+                    <img
+                        src="/src/image2vector.svg"
+                        class="my-2 mx-[-4px] h-8 text-white"
+                    />
+                </a>
+                <div
+                    class="w-full mx-auto flex flex-row-reverse align-middle gap-8"
+                >
+                    <a
+                        class="my-auto font-semibold text-white"
+                        href="https://forms.gle/drbSiZVCyDcemBom7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Register Now</a
+                    >
+                    <a class="my-auto font-semibold text-white" href="#speakers"
+                        >Speakers</a
+                    >
+                    <a class="my-auto font-semibold text-white" href="#timeline"
+                        >Timeline</a
+                    >
+                </div>
+            </div>
+        </div>
         <div class="h-screen mx-auto bg-red-100 flex align-bottom w-full">
             <a
-                href="#root"
+                href="#speakers"
                 class="z-10 mx-auto my-auto px-6 py-2 rounded bg-neutral-100 text-lg font-semibold w-min h-min mb-20"
             >
                 Scroll
             </a>
-            <canvas class="absolute webgl h-full w-full top-0 right-0">
+            <canvas
+                id="main"
+                class="absolute webgl h-full w-full top-0 right-0"
+            >
             </canvas>
         </div>
         <div id="root" class="flex flex-col"></div>
