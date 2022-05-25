@@ -3,8 +3,9 @@ import logo from "./logo.svg"
 import "./index.css"
 import { TimelineLeft } from "./components/timeline/left"
 import { TimelineRight } from "./components/timeline/right"
-import { TimelineMobile } from "./components/timeline/timeline"
-TimelineMobile
+import { TimelineMiddle } from "./components/timeline/timeline"
+import { TimelineMobile } from "./components/timeline/mobile"
+TimelineMiddle
 const App = () => {
     // const [count, setCount] = useState(0)
 
@@ -98,8 +99,11 @@ const App = () => {
             </div>
             <div className="hidden w-full bg-black lg:flex lg:flex-row justify-center gap-4">
                 <TimelineLeft />
-                <TimelineMobile />
+                <TimelineMiddle />
                 <TimelineRight />
+            </div>
+            <div className="w-full bg-black flex flex-row justify-center gap-4 lg:hidden">
+                <TimelineMobile />
             </div>
         </div>
     )

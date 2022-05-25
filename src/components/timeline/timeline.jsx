@@ -1,5 +1,5 @@
 import "./timeline.css"
-export const TimelineMobile = () => (
+export const TimelineMiddle = () => (
     <div className="timeline">
         <div className="outer">
             <div className="card">

@@ -17,5 +17,5 @@ code {
 }
 
 * {
-    scrollbar-color: #ccc #000;
+    scrollbar-color: rgba(200, 200, 200, 1) rgba(0, 0, 0, 0);
 }
