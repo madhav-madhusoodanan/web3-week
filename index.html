@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+    </head>
+    <body class="w-[99.3vw]">
+        <div class="h-screen w-full mx-auto bg-red-100 flex align-bottom">
+            <a
+                href="#root"
+                class="z-10 mx-auto my-auto px-6 py-2 rounded bg-neutral-100 text-lg font-semibold w-min h-min mb-20"
+            >
+                Scroll
+            </a>
+            <canvas class="absolute webgl h-full w-full top-0 right-0"> </canvas>
+        </div>
+        <div id="root"></div>
+        <script
+            type="module"
+            src="./src/components/three/bundle.9bde5503d58100401274.js"
+        ></script>
+        <script type="module" src="/src/main.jsx"></script>
+    </body>
 </html>

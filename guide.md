@@ -1,0 +1,1 @@
+1. all the pages will have components that will be necessary for both desktop as well as mobile
