@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth bg-[#121212]">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Vite App</title>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+        </style>
+      <script type="module" crossorigin src="/assets/index.4bde088c.js"></script>
+      <link rel="stylesheet" href="/assets/index.c4d2ebf4.css">
+    </head>
+    <body class="w-full relative">
+        <script
+            type="module"
+            src="/assets/bundle.1daf965c04383540caab.js"
+        ></script>
+        
+        <div
+            class="h-min w-full fixed top-0 bg-[#121212] z-20 flex flex-row justify-between"
+        >
+            <div class="w-5/6 mx-auto flex flex-row align-middle">
+                <a href="#main">
+                    <img
+                        src="/assets/image2vector.b05d2deb.svg"
+                        class="my-2 mx-[-4px] h-8 text-white"
+                    />
+                </a>
+                <div
+                    class="w-full mx-auto flex flex-row-reverse align-middle gap-8"
+                >
+                    <a
+                        class="my-auto font-semibold text-white"
+                        href="https://forms.gle/drbSiZVCyDcemBom7"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >Register Now</a
+                    >
+                    <a class="my-auto font-semibold text-white" href="#speakers"
+                        >Speakers</a
+                    >
+                    <a class="my-auto font-semibold text-white" href="#timeline"
+                        >Timeline</a
+                    >
+                </div>
+            </div>
+        </div>
+        <a
+            href="#main"
+            class="fixed h-12 w-12 rounded-lg bg-white bottom-8 right-8 z-10 grid place-items-center"
+        >
+            <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+            >
+                <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M7 11l5-5m0 0l5 5m-5-5v12"
+                />
+            </svg>
+        </a>
+        <div class="h-screen mx-auto bg-red-100 flex align-bottom w-full">
+            <a
+                href="#speakers"
+                class="z-10 mx-auto my-auto px-6 py-2 rounded bg-neutral-100 text-lg font-semibold w-min h-min mb-20"
+            >
+                Scroll
+            </a>
+            <canvas
+                id="main"
+                class="absolute webgl h-full w-full top-0 right-0"
+            >
+            </canvas>
+        </div>
+        <div id="root" class="flex flex-col"></div>
+    </body>
+</html>
