@@ -15,7 +15,7 @@
 /* Card container */
 .card-right {
     position: relative;
-    max-width: 400px;
+    width: 400px;
     height: 200px;
 }
 
@@ -35,12 +35,11 @@
 }
 
 .timeline-right:nth-child(odd) > .card-right::before {
-  content: "";
-  position: absolute;
-  width: 50%;
-  border: solid black;
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid #121212;
 }
-
 
 /* Setting the border of top, bottom, left */
 .card-right:nth-child(odd)::before {
@@ -113,7 +112,7 @@
 }
 
 .card-right:nth-child(even) > .info-right > p {
-    color: white
+    color: white;
 }
 .card-right:nth-child(even) > .info-right > h3 {
     color: white;

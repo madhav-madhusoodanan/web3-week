@@ -16,14 +16,6 @@ export const TimelineLeft = () => (
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left text-2xl">Title 2</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.{" "}
-                    </p>
                 </div>
             </div>
             <div className="card-left">
@@ -37,14 +29,6 @@ export const TimelineLeft = () => (
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left text-2xl">Title 4</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.{" "}
-                    </p>
                 </div>
             </div>
             <div className="card-left">
@@ -61,11 +45,6 @@ export const TimelineLeft = () => (
             </div>
             <div className="card-left">
                 <div className="info-left">
-                    <h3 className="title-left text-2xl">June 12th</h3>
-                    <p>
-                        A panel about the future of Web3, involving big minds
-                        such as Pareen Lathia, Mayur, Harsh and XYZ.
-                    </p>
                 </div>
             </div>
             <div className="card-left">

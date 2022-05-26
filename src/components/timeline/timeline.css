@@ -35,12 +35,11 @@
 }
 
 .timeline:nth-child(odd) > .card::before {
-  content: "";
-  position: absolute;
-  width: 50%;
-  border: solid black;
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid #121212;
 }
-
 
 /* Setting the border of top, bottom, left */
 .card:nth-child(odd)::before {
@@ -78,7 +77,6 @@
     border-bottom-right-radius: 0;
 }
 
-
 /* Title of the card */
 .title {
     /* color: orangered; */
@@ -86,7 +84,7 @@
 }
 
 .outer {
-    width: min-content;
+    width: 100px;
 }
 /* Timeline dot  */
 .title::before {
