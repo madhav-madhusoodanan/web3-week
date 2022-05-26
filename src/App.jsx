@@ -18,7 +18,7 @@ const App = () => {
                 id="sponsors"
                 className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold">
+                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
                     Sponsors
                 </h1>
             </div>
@@ -27,18 +27,18 @@ const App = () => {
                 id="speakers"
                 className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold">
+                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
                     Speakers
                 </h1>
             </div>
-            <div className="w-5/6 flex flex-row justify-between mx-auto min-h-screen align-middle">
+            <div className="w-5/6 flex flex-row justify-between mx-auto">
                 <Speakers />
             </div>
             <div
                 id="timeline"
                 className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold">
+                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
                     Timeline
                 </h1>
             </div>
