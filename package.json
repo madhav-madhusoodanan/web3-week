@@ -4,7 +4,8 @@
     "version": "0.0.0",
     "scripts": {
         "dev": "vite",
-        "build": "echo \" already been built\"",
+        "build": "echo \"already been built\"",
+        "build:local": "vite build",
         "preview": "vite preview"
     },
     "dependencies": {
