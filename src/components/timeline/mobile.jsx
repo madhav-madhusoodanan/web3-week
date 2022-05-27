@@ -4,7 +4,9 @@ export const TimelineMobile = () => (
         <div className="outer-mobile">
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 4th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 4th
+                    </h3>
                     <p className="text-xl font-semibold">
                         Introduction to web3 tech stack
                     </p>
@@ -16,7 +18,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 6th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 6th
+                    </h3>
                     <p className="text-xl font-semibold text-right text-red-600">
                         Commencement of BITS Blockchain Hackathon
                     </p>
@@ -24,7 +28,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 7th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 7th
+                    </h3>
                     <p className="text-xl font-semibold">AMA with XYZ</p>
                     <p className="my-4">
                         An AMA session with some of India's top minds in web3
@@ -33,7 +39,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 10th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 10th
+                    </h3>
                     <div className="flex-col gap-8 text-white justify-between">
                         <p>Commencement of The Pitch</p>
                         <p className="my-4">Raising funds in web3</p>
@@ -42,7 +50,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 12th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 12th
+                    </h3>
                     <p className="text-xl font-semibold">Future of Web3</p>
                     <p className="my-4">
                         A panel about the future of Web3, involving big minds
@@ -52,7 +62,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 13th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 13th
+                    </h3>
                     <p className="text-xl font-semibold">
                         Explain Like I'm Five
                     </p>
@@ -64,7 +76,9 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 14th</h3>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 14th
+                    </h3>
                     <p className="text-xl font-semibold">
                         Pitch event - Demo day
                     </p>
@@ -72,11 +86,13 @@ export const TimelineMobile = () => (
             </div>
             <div className="card-mobile">
                 <div className="info-mobile text-white">
-                    <h3 className="title-mobile text-2xl font-semibold">June 15th</h3>
-                    <p className="text-xl font-semibold">Kingpin</p>
+                    <h3 className="title-mobile text-2xl font-semibold">
+                        June 15th
+                    </h3>
+                    <p className="text-xl font-semibold">TalentList</p>
                     <p className="my-4">
-                        An event where teams come to the stage to break-down
-                        jargons that float around in the web3 space
+                        Get a chance to bag an internship from top Indian web3
+                        startups
                     </p>
                 </div>
             </div>
