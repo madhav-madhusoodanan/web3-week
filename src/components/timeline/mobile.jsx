@@ -19,7 +19,7 @@ export const TimelineMobile = () => (
             <div className="card-mobile">
                 <div className="info-mobile text-white">
                     <h3 className="title-mobile text-2xl font-semibold">
-                        June 6th
+                        June 4th
                     </h3>
                     <p className="text-xl font-semibold text-right text-red-600">
                         Commencement of BITS Blockchain Hackathon
