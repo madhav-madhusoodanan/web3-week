@@ -38,7 +38,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid [#121212];
+    border: solid [#212121];
 }
 
 /* Setting the border of top, bottom, left */
@@ -92,7 +92,7 @@
     /* color: orangered; */
     position: relative;
     font-size: 22px;
-    color: #248DDA;
+    color: #248dda;
 }
 
 .outer-left {

@@ -3,18 +3,18 @@ export const TimelineRight = () => (
     <div className="timeline-right">
         <div className="outer-right">
             <div className="card-right">
-                <div className="info-right">
-                </div>
+                <div className="info-right"></div>
             </div>
             <div className="card-right">
                 <div className="info-right">
                     <h3 className="title-right text-2xl">June 6th</h3>
-                    <p className="text-xl font-semibold">Commencement of BITS Blockchain Hackathon</p>
+                    <p className="text-xl font-semibold">
+                        Commencement of BITS Blockchain Hackathon
+                    </p>
                 </div>
             </div>
             <div className="card-right">
-                <div className="info-right">
-                </div>
+                <div className="info-right"></div>
             </div>
             <div className="card-right">
                 <div className="info-right">
@@ -26,8 +26,7 @@ export const TimelineRight = () => (
                 </div>
             </div>
             <div className="card-right">
-                <div className="info-right">
-                </div>
+                <div className="info-right"></div>
             </div>
             <div className="card-right">
                 <div className="info-right">
@@ -36,16 +35,22 @@ export const TimelineRight = () => (
                         Explain Like I'm Five
                     </p>
                     <p className="my-4">
-                        An event where teams come to the stage to break-down jargons that float around in the web3 space
+                        An event where teams come to the stage to break-down
+                        jargons that float around in the web3 space
                     </p>
                 </div>
             </div>
             <div className="card-right">
-                <div className="info-right">
-                </div>
+                <div className="info-right"></div>
             </div>
             <div className="card-right">
                 <div className="info-right">
+                    <h3 className="title-right text-2xl">June 15th</h3>
+                    <p className="text-xl font-semibold">TalentList</p>
+                    <p className="my-4">
+                        Get a chance to bag an internship from top Indian web3
+                        startups
+                    </p>
                 </div>
             </div>
         </div>

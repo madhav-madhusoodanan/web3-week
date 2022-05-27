@@ -31,14 +31,14 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #C14EC9;
+    border: solid #c14ec9;
 }
 
 .timeline:nth-child(odd) > .card::before {
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #121212;
+    border: solid #212121;
 }
 
 /* Setting the border of top, bottom, left */
@@ -94,7 +94,7 @@
     height: 20px;
     background: white;
     border-radius: 999px;
-    border: 6px solid #C14EC9;
+    border: 6px solid #c14ec9;
 }
 
 /* text right if the card is even  */

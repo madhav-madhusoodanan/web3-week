@@ -38,7 +38,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #121212;
+    border: solid #212121;
 }
 
 /* Setting the border of top, bottom, left */
@@ -91,7 +91,6 @@
     /* color: orangered; */
     position: relative;
     font-size: 22px;
-    
 }
 
 .outer-right {
@@ -117,6 +116,6 @@
     color: white;
 }
 .card-right:nth-child(even) > .info-right > h3 {
-	color: #248DDA;
+    color: #248dda;
     font-weight: 700;
 }

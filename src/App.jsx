@@ -13,7 +13,7 @@ const App = () => {
     // const [count, setCount] = useState(0)
 
     return (
-        <div className="w-full bg-[#121212] felx flex-col">
+        <div className="w-full bg-[#212121] felx flex-col">
             <div
                 id="sponsors"
                 className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
@@ -51,12 +51,12 @@ const App = () => {
                     />
                 </a>
             </div>
-            <div className="hidden w-full bg-[#121212] lg:flex lg:flex-row justify-center gap-4">
+            <div className="hidden w-full bg-[#212121] lg:flex lg:flex-row justify-center gap-4">
                 <TimelineLeft />
                 <TimelineMiddle />
                 <TimelineRight />
             </div>
-            <div className="w-full bg-[#121212] flex flex-row justify-center gap-4 lg:hidden">
+            <div className="w-full bg-[#212121] flex flex-row justify-center gap-4 lg:hidden">
                 <TimelineMobile />
             </div>
             <Footer />

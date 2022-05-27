@@ -8,7 +8,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1107962046635606016/C4Lc2W72_400x400.png"
+                        src="/src/mayur.png"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -24,7 +24,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1505176564958257155/vIV2Wl0m_400x400.jpg"
+                        src="/src/kashif.jpg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -56,7 +56,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1475010967935332354/WhP_SbeB_400x400.jpg"
+                        src="/src/haardik.jpg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -72,7 +72,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1521419149620256773/pv9oKTf5_400x400.jpg"
+                        src="/src/pareen.jpg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -88,7 +88,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1239487528001875968/xMDwtVqk_400x400.jpg"
+                        src="/src/raghu.jpg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -104,7 +104,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://octaloop.com/wp-content/themes/octaloop/assets/images/trtm2/speakers/11.png"
+                        src="/src/harsh.png"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -120,7 +120,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://pbs.twimg.com/profile_images/1448339649445781508/S2u0Wyap_400x400.jpg"
+                        src="/src/raj.jpg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
