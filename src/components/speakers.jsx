@@ -40,7 +40,7 @@ const Speakers = () => {
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://media-exp1.licdn.com/dms/image/C4D03AQEyrqehw3aTcg/profile-displayphoto-shrink_400_400/0/1621058270638?e=1658966400&v=beta&t=QteUlU4jdIZoLAklCYCWhHXtTJvaCsX8Ogfvl76RBz0"
+                        src="/src/aniket.jpeg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
@@ -131,12 +131,12 @@ const Speakers = () => {
             </div>
             <div className="w-72 h-min flex flex-col justify-center align-middle text-white my-auto mx-auto">
                 <a
-                    href="https://twitter.com/rajkaria_"
+                    href="https://www.linkedin.com/in/sidharth-bhatia-b05445171/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img
-                        src="https://media-exp1.licdn.com/dms/image/C5603AQEqdo7pvNEdQg/profile-displayphoto-shrink_400_400/0/1648323680179?e=1658966400&v=beta&t=pytB-60UCF1nLQI-5gBYlKSFcFdii3WYUttiTCwtxgU"
+                        src="/src/sid_bhatia.jpeg"
                         className="rounded-lg mx-auto"
                         height={200}
                         width={200}
