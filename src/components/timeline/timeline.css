@@ -31,7 +31,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #ff00ff;
+    border: solid #C14EC9;
 }
 
 .timeline:nth-child(odd) > .card::before {
@@ -94,7 +94,7 @@
     height: 20px;
     background: white;
     border-radius: 999px;
-    border: 3px solid #eee;
+    border: 6px solid #C14EC9;
 }
 
 /* text right if the card is even  */

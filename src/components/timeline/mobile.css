@@ -22,7 +22,7 @@
     content: "";
     position: absolute;
     width: 50%;
-    border: solid #f0f;
+    border: solid #C14EC9;
 }
 
 /* Setting the border of top, bottom, left */
@@ -32,6 +32,7 @@
     bottom: -4.5px;
     border-width: 5px 0 5px 5px;
     border-radius: 50px 0 0 50px;
+    border-color: #C14EC9;
 }
 
 /* Setting the border of top, bottom, right */
@@ -41,6 +42,7 @@
     bottom: 0;
     border-width: 5px 5px 5px 0;
     border-radius: 0 50px 50px 0;
+    border-color: #C14EC9;
 }
 
 /* Removing the border if it is the first card-mobile */
@@ -72,6 +74,8 @@
 /* Title of the card-mobile */
 .title-mobile {
     position: relative;
+    font-size: 24px;
+    color: #248DDA;
 }
 
 /* Timeline dot  */

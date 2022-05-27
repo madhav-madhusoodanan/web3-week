@@ -13,34 +13,43 @@ const App = () => {
     // const [count, setCount] = useState(0)
 
     return (
-        <div className="w-full bg-[#121212]">
+        <div className="w-full bg-[#121212] felx flex-col">
             <div
                 id="sponsors"
-                className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
+                className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
-                    Sponsors
-                </h1>
+                <a href="#sponsors">
+                    <img
+                        src="/src/sponsors.svg"
+                        class="mb-4 mt-24 mx-auto h-12 text-white"
+                    />
+                </a>
             </div>
             <Sponsors />
             <div
                 id="speakers"
-                className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
+                className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
-                    Speakers
-                </h1>
+                <a href="#main">
+                    <img
+                        src="/src/speakers.svg"
+                        class="mb-4 mt-24 mx-auto h-12 text-white"
+                    />
+                </a>
             </div>
             <div className="w-5/6 flex flex-row justify-between mx-auto">
                 <Speakers />
             </div>
             <div
                 id="timeline"
-                className="w-5/6 h-[10vh] mx-auto flex flex-col justify-center py-16"
+                className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
             >
-                <h1 className="text-white text-3xl font-grotesk font-bold flex justify-center underline">
-                    Timeline
-                </h1>
+                <a href="#main">
+                    <img
+                        src="/src/timeline.svg"
+                        class="mb-4 mt-24 mx-auto h-12 text-white"
+                    />
+                </a>
             </div>
             <div className="hidden w-full bg-[#121212] lg:flex lg:flex-row justify-center gap-4">
                 <TimelineLeft />

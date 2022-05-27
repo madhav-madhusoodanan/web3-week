@@ -90,6 +90,8 @@
 .title-right {
     /* color: orangered; */
     position: relative;
+    font-size: 22px;
+    
 }
 
 .outer-right {
@@ -115,6 +117,6 @@
     color: white;
 }
 .card-right:nth-child(even) > .info-right > h3 {
-    color: white;
+	color: #248DDA;
     font-weight: 700;
 }

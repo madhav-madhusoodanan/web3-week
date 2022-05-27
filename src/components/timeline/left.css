@@ -91,6 +91,8 @@
 .title-left {
     /* color: orangered; */
     position: relative;
+    font-size: 22px;
+    color: #248DDA;
 }
 
 .outer-left {
@@ -119,6 +121,5 @@
 }
 
 .card-left:nth-child(odd) > .info-left > h3 {
-    color: white;
     font-weight: 700;
 }
