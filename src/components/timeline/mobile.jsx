@@ -31,7 +31,9 @@ export const TimelineMobile = () => (
                     <h3 className="title-mobile text-2xl font-semibold">
                         June 7th
                     </h3>
-                    <p className="text-xl font-semibold">AMA with XYZ</p>
+                    <p className="text-xl font-semibold">
+                        AMA with Bitsians in Web3
+                    </p>
                     <p className="my-4">
                         An AMA session with some of India's top minds in web3
                     </p>
@@ -56,7 +58,7 @@ export const TimelineMobile = () => (
                     <p className="text-xl font-semibold">Future of Web3</p>
                     <p className="my-4">
                         A panel about the future of Web3, involving big minds
-                        such as Pareen Lathia, Mayur, Harsh and XYZ.
+                        such as Pareen Lathia, Mayur and Harsh.
                     </p>
                 </div>
             </div>

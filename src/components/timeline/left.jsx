@@ -6,17 +6,16 @@ export const TimelineLeft = () => (
                 <div className="info-left">
                     <h3 className="title-left text-2xl">June 4th</h3>
                     <p className="text-xl font-semibold">
-                        Introduction to web3 tech stack
+                        Introduction to Web3 tech stack
                     </p>
                     <p className="text-red my-4">
-                        An interactive workshop by Learnweb3DAO. NFT
+                        An interactive workshop by LearnWeb3DAO. NFT
                         certificates for participants.
                     </p>
                 </div>
             </div>
             <div className="card-left">
-                <div className="info-left">
-                </div>
+                <div className="info-left"></div>
             </div>
             <div className="card-left">
                 <div className="info-left">
@@ -24,28 +23,26 @@ export const TimelineLeft = () => (
                     <p className="text-xl font-semibold">
                         AMA with Bitsians in Web3
                     </p>
-                    <p className="my-4">An AMA session with some of India's top minds in web3</p>
+                    <p className="my-4">
+                        An AMA session with some of India's top minds in Web3
+                    </p>
                 </div>
             </div>
             <div className="card-left">
-                <div className="info-left">
-                </div>
+                <div className="info-left"></div>
             </div>
             <div className="card-left">
                 <div className="info-left">
                     <h3 className="title-left text-2xl">June 12th</h3>
-                    <p className="text-xl font-semibold">
-                        Future of Web3
-                    </p>
+                    <p className="text-xl font-semibold">Future of Web3</p>
                     <p className="my-4">
                         A panel about the future of Web3, involving big minds
-                        such as Pareen Lathia, Mayur, Harsh and XYZ.
+                        such as Pareen Lathia, Mayur and Harsh.
                     </p>
                 </div>
             </div>
             <div className="card-left">
-                <div className="info-left">
-                </div>
+                <div className="info-left"></div>
             </div>
             <div className="card-left">
                 <div className="info-left">
