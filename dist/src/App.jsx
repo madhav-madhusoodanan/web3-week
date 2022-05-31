@@ -8,7 +8,7 @@ import { TimelineMobile } from "./components/timeline/mobile"
 import { Sponsors } from "./components/sponsors"
 import Speakers from "./components/speakers"
 import { Footer } from "./components/footer"
-import { DesktopHackathon } from "./components/hackathon"
+import { DesktopHackathon, MobileHackathon } from "./components/hackathon"
 TimelineMiddle
 const App = () => {
     // const [count, setCount] = useState(0)
@@ -61,6 +61,7 @@ const App = () => {
                 <TimelineMobile />
             </div>
             <DesktopHackathon />
+            <MobileHackathon />
             <Footer />
         </div>
     )
