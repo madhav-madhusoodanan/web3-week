@@ -2,28 +2,22 @@
 <html lang="en" class="scroll-smooth bg-[#212121]">
     <head>
         <meta charset="UTF-8" />
-        <link
-            rel="icon"
-            type="image/svg+xml"
-            href="/assets/favicon.d8fdf973.svg"
-        />
+        <link rel="icon" type="image/svg+xml" href="/assets/favicon.d8fdf973.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Web3 Week</title>
         <style>
             @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
         </style>
-        <script
-            type="module"
-            crossorigin
-            src="/assets/index.5e313f4e.js"
-        ></script>
-        <link rel="stylesheet" href="/assets/index.87549152.css" />
+      <script type="module" crossorigin src="/assets/index.317e01f8.js"></script>
+      <link rel="stylesheet" href="/assets/index.e7598425.css">
     </head>
     <body class="w-full relative">
         <script
             type="module"
             src="./src/components/three/bundle.99538dec712a8da8a73b.js"
         ></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
 
         <div
             class="h-min w-full fixed top-0 bg-[#212121] z-20 flex flex-row justify-between"
@@ -56,11 +50,15 @@ https://palm-venom-203.notion.site/Pitch-Deck-Competition-0e8201f84eef45929d0faf
                     <a
                         class="my-auto font-semibold text-white"
                         href="#speakers"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         >Speakers</a
                     >
                     <a
                         class="my-auto font-semibold text-white"
                         href="#timeline"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         >Timeline</a
                     >
                 </div>
@@ -109,6 +107,14 @@ https://palm-venom-203.notion.site/Pitch-Deck-Competition-0e8201f84eef45929d0faf
                 class="absolute webgl h-full w-full top-0 right-0"
             >
             </canvas>
+            <script>
+                new kursor({
+                    type: 1,
+                    el: ".hackathon",
+                    color: "#79f8bb",
+                    removeDefaultCursor: true,
+                });
+            </script>
         </div>
         <div id="root" class="flex flex-col"></div>
     </body>
