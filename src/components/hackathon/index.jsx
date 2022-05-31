@@ -67,7 +67,7 @@ export const DesktopHackathon = () => (
 export const MobileHackathon = () => (
     <div className="w-screen h-screen flex flex-col md:hidden">
         <div className="mx-auto">
-            <img src="/src/hackathon_title.svg" className="h-12 mx-auto my-12" />
+            <img src="/src/hackathon_title.svg" className="h-12 mx-auto mt-12 mb-4" />
             <p className="text-white mx-auto text-justify w-4/5">
                 We bring to you the Blockchain Hackathon, where you get a chance
                 to solve real-life problems using web3 tech stacks and get it
