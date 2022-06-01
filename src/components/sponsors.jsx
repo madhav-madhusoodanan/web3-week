@@ -1,175 +1,95 @@
 export const Sponsors = () => (
     <div className="w-full min-h-[40vh] z-30">
         <div className="w-5/6 mx-auto h-full flex flex-row flex-wrap justify-between align-middle gap-8">
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/superblock.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8"
-                />
+            <div className="w-full h-min text-[#79f8bb] font-bold text-3xl md:text-5xl text-center mt-12">
+                TITLE SPONSORS
+            </div>
+            <div className="w-80  flex-grow mx-auto h-max  grid place-items-center">
                 <a
                     src="/src/superblock.svg"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-1 "
                 >
-                    <img src="/src/title.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        Superblock
-                    </p>
+                    <img src="/src/superblock.svg" className="h-32" />
                 </a>
             </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/buidlers.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8"
-                />
+            <div className="w-80  flex-grow mx-auto h-max  grid place-items-center relative">
+                <img src="/src/bdt.png" />
                 <a
                     href="https://buidlerstribe.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="absolute top-1 "
-                >
-                    <img src="/src/collab.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        BUIDLERS TRIBE
-                    </p>
-                </a>
+                ></a>
             </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/devfolio.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8"
-                />
+            <div className="w-full h-max text-[#79f8bb] font-bold text-3xl md:text-5xl text-center mt-12">
+                HACKATHON PARTNERS
+            </div>
+            <div className="w-80  flex-grow h-max my-auto grid place-items-center relative mx-8">
                 <a
                     href="https://devfolio.co/home/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-1"
                 >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        DEVFOLIO
-                    </p>
+                    <img src="/src/devfolio.png" />
                 </a>
             </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/biconomy.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8 ml-2"
-                />
-                <a
-                    href="https://www.biconomy.io/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-1"
-                >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        BICONOMY
-                    </p>
-                </a>
-            </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/arcana.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8"
-                />
-                <a
-                    href="https://arcana.network/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-1"
-                >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        ARCANA
-                    </p>
-                </a>
-            </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/celo.svg"
-                    height={75}
-                    width={75}
-                    className="-mt-8"
-                />
-                <a
-                    href="https://celo.org/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-1"
-                >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        CELO
-                    </p>
-                </a>
-            </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/polygon.svg"
-                    height={75}
-                    width={75}
-                    className="-mt-8"
-                />
+            <div className="w-80  flex-grow mx-8 h-max my-auto  grid place-items-center relative">
                 <a
                     href="https://polygon.technology/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-1"
                 >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        POLYGON
-                    </p>
+                    <img src="/src/polygon.png" />
                 </a>
             </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/filecoin.svg"
-                    height={75}
-                    width={75}
-                    className="-mt-8"
-                />
+            <div className="w-80  flex-grow h-min  grid place-items-center relative">
                 <a
                     href="https://filecoin.io/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-1"
                 >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        FILECOIN
-                    </p>
+                    <img src="/src/filecoin.png" />
                 </a>
             </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/tezos.svg"
-                    height={75}
-                    width={75}
-                    className="-mt-8 ml-4"
-                />
+            <div className="w-80  h-max  flex flex-col justify-center mx-8 relative ">
                 <a
                     href="https://tezos.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="absolute top-1"
                 >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        TEZOS
-                    </p>
+                    <img src="/src/tezos.png"  className="w-80 "/>
+                </a>
+            </div>
+            <div className="w-80 h-max  flex flex-col justify-center mx-auto">
+                <a
+                    href="https://celo.org/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src="/src/celo.png" className="w-full "/>
+                </a>
+            </div>
+            <div className="w-80  h-max flex flex-col justify-center mx-auto my-auto">
+                <a
+                    href="https://www.biconomy.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div className="w-full mx-auto flex flex-col justify-center relative">
+                        <img src="/src/biconomy.svg" />
+                    </div>
+                </a>
+            </div>
+            <div className="w-full h-max  flex flex-col justify-center">
+                <a
+                    href="https://arcana.network/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div className="w-80  flex-grow mx-auto h-min  grid place-items-center relative">
+                        <img src="/src/arcana.svg" className="w-full" />
+                    </div>
                 </a>
             </div>
         </div>
