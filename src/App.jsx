@@ -14,6 +14,8 @@ const App = () => {
 
     return (
         <div className="w-full bg-[#212121] felx flex-col">
+            <DesktopHackathon />
+            <MobileHackathon />
             <div
                 id="speakers"
                 className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
@@ -25,8 +27,6 @@ const App = () => {
                     />
                 </a>
             </div>
-            <DesktopHackathon />
-            <MobileHackathon />
             <div className="w-5/6 flex flex-row justify-between mx-auto">
                 <Speakers />
             </div>
