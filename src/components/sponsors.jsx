@@ -2,7 +2,7 @@ export const Sponsors = () => (
     <div className="w-full min-h-[40vh] z-30">
         <div className="w-5/6 mx-auto h-full flex flex-row flex-wrap justify-between align-middle gap-8">
             <div className="w-full h-min text-[#79f8bb] font-bold text-3xl md:text-4xl text-center mt-12">
-                TITLE SPONSORS
+                TITLE
             </div>
             <div className="w-80 my-4  flex-grow mx-auto h-max  grid place-items-center">
                 <a
