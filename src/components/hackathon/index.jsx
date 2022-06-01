@@ -105,7 +105,7 @@ export const MobileHackathon = () => {
         }
     }, [])
     return (
-        <div className="w-screen h-screen flex flex-col lg:hidden">
+        <div className="w-screen max-h-screen flex flex-col lg:hidden">
             <div className="mx-auto">
                 <img
                     src="/src/hackathon_title.svg"

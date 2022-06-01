@@ -8,12 +8,12 @@ import { Sponsors } from "./components/sponsors"
 import Speakers from "./components/speakers"
 import { Footer } from "./components/footer"
 import { DesktopHackathon, MobileHackathon } from "./components/hackathon"
-TimelineMiddle
+
 const App = () => {
     // const [count, setCount] = useState(0)
 
     return (
-        <div className="w-full bg-[#212121] felx flex-col">
+        <div className="w-full bg-[#212121] flex flex-col">
             <DesktopHackathon />
             <MobileHackathon />
             <div
