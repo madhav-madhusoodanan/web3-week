@@ -66,7 +66,7 @@ export const DesktopHackathon = () => {
                                 href="https://bits-web3-week-hackathon.devfolio.co/"
                                 className="px-6 py-2 font-bold text-lg w-max text-[#212121] bg-white rounded"
                             >
-                                Go to devfolio
+                                Go to Devfolio
                             </a>
                         </div>
                     </div>
