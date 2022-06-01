@@ -93,49 +93,66 @@ export const DesktopHackathon = () => {
         </div>
     )
 }
-export const MobileHackathon = () => (
-    <div className="w-screen h-screen flex flex-col lg:hidden">
-        <div className="mx-auto">
-            <img
-                src="/src/hackathon_title.svg"
-                className="h-12 mx-auto mt-12 mb-4"
-            />
-            <p className="text-white mx-auto text-justify w-4/5 md:w-3/5">
-                We bring to you the Blockchain Hackathon, where you get a chance
-                to solve real-life problems using web3 tech stacks and get it
-                evaluated by some of the best experts and innovators in the Web
-                3 space. You can form teams and you get 10 days to solve
-                problems after which you progress through multiple stages of
-                vetting. This event is meant for intermediate level Blockchain
-                Developers. Cash prizes and internships at the best Web3 firms
-                awaiting!.
-            </p>
-        </div>
-        <div className="w-4/5 mx-auto text-center text-white">
-            <div className="my-8">
-                <h3 className="text-2xl font-extrabold">MENTORS</h3>
-                <p className="my-2 w-full md:w-3/5 mx-auto">
-                    Get access to mentorship from Learnweb3DAO and learn from
-                    the best in the space
+export const MobileHackathon = () => {
+    useEffect(() => {
+        const script = document.createElement("script")
+        script.src = "https://apply.devfolio.co/v2/sdk.js"
+        script.async = true
+        script.defer = true
+        document.body.appendChild(script)
+        return () => {
+            document.body.removeChild(script)
+        }
+    }, [])
+    return (
+        <div className="w-screen h-screen flex flex-col lg:hidden">
+            <div className="mx-auto">
+                <img
+                    src="/src/hackathon_title.svg"
+                    className="h-12 mx-auto mt-12 mb-4"
+                />
+                <p className="text-white mx-auto text-justify w-4/5 md:w-3/5">
+                    We bring to you the Blockchain Hackathon, where you get a
+                    chance to solve real-life problems using web3 tech stacks
+                    and get it evaluated by some of the best experts and
+                    innovators in the Web 3 space. You can form teams and you
+                    get 10 days to solve problems after which you progress
+                    through multiple stages of vetting. This event is meant for
+                    intermediate level Blockchain Developers. Cash prizes and
+                    internships at the best Web3 firms awaiting!.
                 </p>
             </div>
-            <div className="my-8">
-                <h3 className="text-2xl font-extrabold">CASH PRIZES</h3>
-                <p className="my-2 w-full md:w-3/5 mx-auto">
-                    The winners of the competition will get huge cash prizes and
-                    chance to acquire internships
-                </p>
+            <div className="w-4/5 mx-auto text-center text-white">
+                <div className="my-8">
+                    <h3 className="text-2xl font-extrabold">MENTORS</h3>
+                    <p className="my-2 w-full md:w-3/5 mx-auto">
+                        Get access to mentorship from Learnweb3DAO and learn
+                        from the best in the space
+                    </p>
+                </div>
+                <div className="my-8">
+                    <h3 className="text-2xl font-extrabold">CASH PRIZES</h3>
+                    <p className="my-2 w-full md:w-3/5 mx-auto">
+                        The winners of the competition will get huge cash prizes
+                        and chance to acquire internships
+                    </p>
+                </div>
+                <a
+                    href="https://www.learnweb3.io/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <h3 className="cursor-pointer text-2xl font-extrabold ">
+                        RESOURCES
+                    </h3>
+                    <p className="text-neutral-500">Click to access</p>
+                </a>
+                <div
+                    className="apply-button h-11 w-80"
+                    data-hackathon-slug="bits-web3-week-hackathon"
+                    data-button-theme="dark-inverted"
+                ></div>
             </div>
-            <a
-                href="https://www.learnweb3.io/"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                <h3 className="cursor-pointer text-2xl font-extrabold ">
-                    RESOURCES
-                </h3>
-                <p className="text-neutral-500">Click to access</p>
-            </a>
         </div>
-    </div>
-)
+    )
+}
