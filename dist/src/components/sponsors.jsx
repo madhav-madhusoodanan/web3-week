@@ -6,7 +6,7 @@ export const Sponsors = () => (
             </div>
             <div className="w-80 my-4  flex-grow mx-auto h-max  grid place-items-center">
                 <a
-                    src="/src/superblock.png"
+                    href="https://www.superblock.one"
                     target="_blank"
                     rel="noopener noreferrer"
                 >

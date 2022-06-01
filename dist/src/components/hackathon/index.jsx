@@ -3,6 +3,16 @@ import hackathon_title from "../../sponsors.svg"
 import { useEffect } from "react"
 
 export const DesktopHackathon = () => {
+    useEffect(() => {
+        const script = document.createElement("script")
+        script.src = "https://apply.devfolio.co/v2/sdk.js"
+        script.async = true
+        script.defer = true
+        document.body.appendChild(script)
+        return () => {
+            document.body.removeChild(script)
+        }
+    }, [])
     return (
         <div className="select-none w-screen h-screen hidden lg:flex lg:flex-col justify-center  align-middle">
             <div className="h-max w-max mx-auto">
