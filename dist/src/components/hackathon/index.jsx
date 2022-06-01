@@ -148,7 +148,7 @@ export const MobileHackathon = () => {
                     <p className="text-neutral-500">Click to access</p>
                 </a>
                 <div
-                    className="apply-button h-11 w-80"
+                    className="apply-button h-11 w-80 mx-auto my-4"
                     data-hackathon-slug="bits-web3-week-hackathon"
                     data-button-theme="dark-inverted"
                 ></div>
