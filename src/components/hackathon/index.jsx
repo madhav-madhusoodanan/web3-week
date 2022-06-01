@@ -6,7 +6,7 @@ export const DesktopHackathon = () => {
     return (
         <div className="select-none w-screen h-screen hidden lg:flex lg:flex-col justify-center  align-middle">
             <div className="h-max w-max mx-auto">
-                <div className="hackathon group peer relative flex flex-row h-20 w-[24rem] my-auto border-2 border-[#248dda] mx-auto justify-between p-8 rounded-lg overflow-hidden hover:w-[calc(100vw-20vh)] hover:h-[80vh] transition-all duration-500 ease-[cubic-bezier(0.87,0,0.13,1)]">
+                <div className="hackathon group peer relative flex flex-row h-20 w-[24rem] my-auto border-2 border-[#248dda] mx-auto justify-between p-8 rounded-lg overflow-hidden hover:w-[56rem] hover:h-[35rem] transition-all duration-500 ease-[cubic-bezier(0.87,0,0.13,1)]">
                     <div className="left-8 flex flex-col justify-end h-full duration-500 group-hover:bottom-20 w-[24rem] ">
                         <div className="after:absolute after:h-1 after:w-full after:bottom-0 after:left-0 py-1">
                             <img
@@ -60,14 +60,19 @@ export const DesktopHackathon = () => {
                             </p>
                         </a>
                         <div className="">
-                            <a
+                            {/* <a
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 href="https://bits-web3-week-hackathon.devfolio.co/"
                                 className="px-6 py-2 font-bold text-lg w-max text-[#212121] bg-white rounded"
                             >
                                 Go to Devfolio
-                            </a>
+                            </a> */}
+                            <div
+                                className="apply-button h-11 w-80"
+                                data-hackathon-slug="bits-web3-week-hackathon"
+                                data-button-theme="dark-inverted"
+                            ></div>
                         </div>
                     </div>
                 </div>
