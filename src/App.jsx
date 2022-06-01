@@ -15,18 +15,6 @@ const App = () => {
     return (
         <div className="w-full bg-[#212121] felx flex-col">
             <div
-                id="sponsors"
-                className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
-            >
-                <a href="#sponsors">
-                    <img
-                        src="/src/sponsors.svg"
-                        class="mb-4 mt-24 mx-auto h-12 text-white"
-                    />
-                </a>
-            </div>
-            <Sponsors />
-            <div
                 id="speakers"
                 className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
             >
@@ -37,6 +25,8 @@ const App = () => {
                     />
                 </a>
             </div>
+            <DesktopHackathon />
+            <MobileHackathon />
             <div className="w-5/6 flex flex-row justify-between mx-auto">
                 <Speakers />
             </div>
@@ -59,8 +49,19 @@ const App = () => {
             <div className="w-full bg-[#212121] flex flex-row justify-center gap-4 lg:hidden">
                 <TimelineMobile />
             </div>
-            <DesktopHackathon />
-            <MobileHackathon />
+
+            <div
+                id="sponsors"
+                className="w-5/6 h-[25vh] mx-auto flex flex-col justify-center py-16"
+            >
+                <a href="#sponsors">
+                    <img
+                        src="/src/sponsors.svg"
+                        class="mb-4 mt-24 mx-auto h-12 text-white"
+                    />
+                </a>
+            </div>
+            <Sponsors />
             <Footer />
         </div>
     )
