@@ -147,7 +147,7 @@ export const MobileHackathon = () => {
                     </h3>
                     <p className="text-neutral-500">Click to access</p>
                 </a>
-                <div className="w-full md:contents flex-row flex justify-center">
+                <div className="w-full lg:contents flex-row flex justify-center my-4 lg:my-0">
                     <div
                         className="apply-button h-11 w-80 mx-auto my-4"
                         data-hackathon-slug="bits-web3-week-hackathon"
