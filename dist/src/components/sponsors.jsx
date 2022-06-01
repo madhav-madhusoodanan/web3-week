@@ -13,6 +13,9 @@ export const Sponsors = () => (
                     <img src="/src/superblock.svg" className="h-32" />
                 </a>
             </div>
+            <div className="w-full h-max text-[#79f8bb] font-bold text-3xl md:text-5xl text-center mt-12">
+                IN COLLABORATION WITH
+            </div>
             <div className="w-80  flex-grow mx-auto h-max  grid place-items-center relative">
                 <img src="/src/bdt.png" />
                 <a
@@ -25,7 +28,7 @@ export const Sponsors = () => (
             <div className="w-full h-max text-[#79f8bb] font-bold text-3xl md:text-5xl text-center mt-12">
                 HACKATHON PARTNERS
             </div>
-            <div className="w-80  flex-grow h-max my-auto grid place-items-center relative mx-8">
+            <div className="w-80  h-max my-auto grid place-items-center relative mx-8">
                 <a
                     href="https://devfolio.co/home/"
                     target="_blank"
@@ -34,7 +37,7 @@ export const Sponsors = () => (
                     <img src="/src/devfolio.png" />
                 </a>
             </div>
-            <div className="w-80  flex-grow mx-8 h-max my-auto  grid place-items-center relative">
+            <div className="w-80  mx-8 h-max my-auto  grid place-items-center relative">
                 <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -43,7 +46,7 @@ export const Sponsors = () => (
                     <img src="/src/polygon.png" />
                 </a>
             </div>
-            <div className="w-80  flex-grow h-min  grid place-items-center relative">
+            <div className="w-80 h-max  grid place-items-center relative">
                 <a
                     href="https://filecoin.io/"
                     target="_blank"
