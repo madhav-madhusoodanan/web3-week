@@ -21,7 +21,7 @@ export const TimelineMobile = () => (
                     <h3 className="title-mobile text-2xl font-semibold">
                         June 4th
                     </h3>
-                    <p className="text-xl font-semibold text-right text-red-600">
+                    <p className="text-xl font-semibold text-right">
                         Commencement of BITS Blockchain Hackathon
                     </p>
                 </div>
