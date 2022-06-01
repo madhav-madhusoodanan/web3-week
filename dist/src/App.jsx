@@ -1,5 +1,4 @@
 import { useState } from "react"
-import logo from "./logo.svg"
 import "./index.css"
 import { TimelineLeft } from "./components/timeline/left"
 import { TimelineRight } from "./components/timeline/right"
