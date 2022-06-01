@@ -41,6 +41,25 @@ export const Sponsors = () => (
             </div>
             <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
                 <img
+                    src="/src/devfolio.svg"
+                    height={100}
+                    width={100}
+                    className="-mt-8"
+                />
+                <a
+                    href="https://devfolio.co/home/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="absolute top-1"
+                >
+                    <img src="/src/hackathon.svg" />
+                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
+                        DEVFOLIO
+                    </p>
+                </a>
+            </div>
+            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
+                <img
                     src="/src/biconomy.svg"
                     height={100}
                     width={100}
@@ -150,25 +169,6 @@ export const Sponsors = () => (
                     <img src="/src/hackathon.svg" />
                     <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
                         TEZOS
-                    </p>
-                </a>
-            </div>
-            <div className="w-64 flex-grow mx-auto h-80 grid place-items-center relative">
-                <img
-                    src="/src/devfolio.svg"
-                    height={100}
-                    width={100}
-                    className="-mt-8"
-                />
-                <a
-                    href="https://devfolio.co/home/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-1"
-                >
-                    <img src="/src/hackathon.svg" />
-                    <p className="mx-auto text-[#eee] font-semibold text-2xl text-center">
-                        DEVFOLIO
                     </p>
                 </a>
             </div>
