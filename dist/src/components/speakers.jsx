@@ -147,6 +147,24 @@ const Speakers = () => {
                 </h3>
                 <p className="mx-auto">Founder, Superblock</p>
             </div>
+            <div className="w-72 h-min flex flex-col justify-center align-middle text-white my-auto mx-auto">
+                <a
+                    href="https://www.linkedin.com/in/sidharth-bhatia-b05445171/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img
+                        src="/src/gaurav.jpeg"
+                        className="rounded-lg mx-auto"
+                        height={200}
+                        width={200}
+                    />
+                </a>
+                <h3 className="text-xl font-semibold mx-auto">Gaurav Ranjan</h3>
+                <p className="mx-auto">
+                    Vice President, Prime Venture Partners
+                </p>
+            </div>
         </div>
     )
 }
