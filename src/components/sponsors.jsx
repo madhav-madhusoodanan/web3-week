@@ -37,7 +37,7 @@ export const Sponsors = () => (
                     <img src="/src/devfolio.png" />
                 </a>
             </div>
-            <div className="w-80 my-8 md:my-auto  mx-auto h-max   grid place-items-center relative">
+            <div className="w-80 my-12 md:my-auto  mx-auto h-max   grid place-items-center relative">
                 <a
                     href="https://polygon.technology/"
                     target="_blank"
@@ -55,7 +55,7 @@ export const Sponsors = () => (
                     <img src="/src/filecoin.png" />
                 </a>
             </div>
-            <div className="w-80 my-4  h-max  flex flex-col justify-center mx-auto relative ">
+            <div className="w-80  h-max  flex flex-col justify-center mx-auto relative ">
                 <a
                     href="https://tezos.com/"
                     target="_blank"
@@ -84,7 +84,7 @@ export const Sponsors = () => (
                     </div>
                 </a>
             </div>
-            <div className="w-full h-max my-4 md:my-auto flex flex-col justify-center">
+            <div className="w-80 my-8 md:my-auto h-max flex flex-col justify-center mx-auto ">
                 <a
                     href="https://arcana.network/"
                     target="_blank"
@@ -92,6 +92,20 @@ export const Sponsors = () => (
                 >
                     <div className="w-80 flex-grow mx-auto h-min  grid place-items-center relative">
                         <img src="/src/arcana.svg" className="w-full" />
+                    </div>
+                </a>
+            </div>
+            <div className="w-full h-max text-[#79f8bb] font-bold text-3xl md:text-4xl text-center mt-24">
+                OFFICIAL UPSCALING PARTNER
+            </div>
+            <div className="w-80 my-8 md:my-auto h-max flex flex-col justify-center mx-auto ">
+                <a
+                    href="https://primeventurepartners.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <div className="w-80 my-8 flex-grow mx-auto h-min  grid place-items-center relative">
+                        <img src="/src/prime.svg" className="w-full" />
                     </div>
                 </a>
             </div>
